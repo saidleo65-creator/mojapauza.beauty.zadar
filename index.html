@@ -6,39 +6,59 @@
 <title>Mojapauza Beauty Zadar</title>
 
 <style>
+
 body{
-font-family: Arial, sans-serif;
 margin:0;
-background:#fff0f6;
+font-family:Arial;
+background:#fff5f8;
 color:#333;
 }
 
 header{
 background:#ff4da6;
 color:white;
+padding:60px 20px;
 text-align:center;
-padding:40px;
 }
 
 header h1{
 margin:0;
-font-size:40px;
+font-size:42px;
 }
 
-section{
-padding:40px;
-text-align:center;
+header p{
+font-size:20px;
 }
 
 .btn{
 display:inline-block;
-background:#ff4da6;
-color:white;
-padding:15px 30px;
-border-radius:30px;
-text-decoration:none;
-font-weight:bold;
 margin-top:20px;
+padding:15px 30px;
+background:white;
+color:#ff4da6;
+text-decoration:none;
+border-radius:30px;
+font-weight:bold;
+}
+
+section{
+padding:60px 20px;
+text-align:center;
+}
+
+.services{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+}
+
+.service{
+background:white;
+padding:20px;
+border-radius:12px;
+width:200px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
 }
 
 .gallery{
@@ -57,47 +77,86 @@ footer{
 background:#222;
 color:white;
 text-align:center;
-padding:20px;
+padding:30px;
 }
+
 </style>
 </head>
 
 <body>
 
 <header>
+
 <h1>Mojapauza Beauty</h1>
-<p>Zadar • Nail Studio</p>
+<p>Nail studio • Zadar</p>
+
+<a class="btn" href="https://wa.me/385958334896">
+Rezerviraj termin
+</a>
+
 </header>
 
 <section>
-<h2>Dobrodošli</h2>
-<p>Salon za uređivanje noktiju u Zadru. Opustite se i priuštite si savršene nokte.</p>
 
-<a class="btn" href="#">Rezerviraj termin</a>
-</section>
+<h2>Naše usluge</h2>
 
-<section>
-<h2>Galerija radova</h2>
+<div class="services">
 
-<div class="gallery">
-<img src="https://images.unsplash.com/photo-1604654894610-df63bc536371">
-<img src="https://images.unsplash.com/photo-1610992015732-2449b76344bc">
-<img src="https://images.unsplash.com/photo-1596464716127-f2a82984de30">
+<div class="service">
+<h3>Gel nokti</h3>
+<p>Profesionalna izrada gel noktiju.</p>
+</div>
+
+<div class="service">
+<h3>Trajni lak</h3>
+<p>Dugotrajni lak visoke kvalitete.</p>
+</div>
+
+<div class="service">
+<h3>Akrilni nokti</h3>
+<p>Nadogradnja i oblikovanje noktiju.</p>
+</div>
+
+<div class="service">
+<h3>Nail art</h3>
+<p>Dizajn i ukrašavanje noktiju.</p>
+</div>
+
 </div>
 
 </section>
 
 <section>
+
+<h2>Galerija</h2>
+
+<div class="gallery">
+
+<img src="https://images.unsplash.com/photo-1604654894610-df63bc536371">
+<img src="https://images.unsplash.com/photo-1610992015732-2449b76344bc">
+<img src="https://images.unsplash.com/photo-1596464716127-f2a82984de30">
+
+</div>
+
+</section>
+
+<section>
+
 <h2>Kontakt</h2>
 
 <p>📍 Zadar</p>
-<p>📞 Telefon: uskoro</p>
-<p>📷 Instagram: uskoro</p>
+<p>📱 WhatsApp rezervacije</p>
+
+<a class="btn" href="https://wa.me/385958334896">
+Pošalji poruku
+</a>
 
 </section>
 
 <footer>
+
 <p>© 2026 Mojapauza Beauty Zadar</p>
+
 </footer>
 
 </body>
